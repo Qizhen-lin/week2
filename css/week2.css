@@ -9,12 +9,12 @@ body , p {
   margin: 0 auto;
 }
 
-h2 {
+.common-h2 {
   font-size: 64px;
   line-height: 75px;
-  font-style: italic;
   font-weight: bold;
   font-style: oblique;
+  text-align: center;
 }
 
 
@@ -69,10 +69,7 @@ h2 {
 }
 
 /*about*/
-.container-about h2{
-  font-size: 64px;
-  line-height: 75px;
-  text-align: center;
+.containerAbout-h2 {
   margin-top: 64px;
 }
 
@@ -139,10 +136,7 @@ h2 {
 
 }
 
-.container-myBrand h2 {
-  font-size: 64px;
-  font-weight: bold;
-  font-style: oblique;
+.container-myBrand_h2 {
   margin-bottom: 16px;
 }
 
@@ -170,10 +164,7 @@ h2 {
   text-align: center;
 }
 
-.container-other h2 {
-  font-size: 64px;
-  font-weight: bold;
-  font-style: oblique;
+.containerOther-h2 {
   margin: 64px 0 24px;
 }
 
@@ -223,13 +214,9 @@ h2 {
   text-align: center;
 }
 
-.contact h2 {
-  font-size: 64px;
-  line-height: 75px;
-  font-style: oblique;
+.contact-h2 {
   padding-top: 64px;
   margin-bottom: 16px;
-
 
 }
 
