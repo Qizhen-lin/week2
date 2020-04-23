@@ -1,0 +1,242 @@
+/* 共用部分 */
+body , p {
+  font-family: 微軟正黑體, "Microsoft JhengHei", Arial;
+  margin: 0 auto;
+  
+}
+
+.container {
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 75px;
+  font-style: italic;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+
+/* 封面區塊 */
+.cover {
+  background-image: url("../images/photo-1552393700-42696fb89bfa.png");
+  background-size: 1920px; /*圖片設100%，他會依版面大小作伸縮*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 960px;
+  display: flex; /*整個區塊垂直置中，也可以用flex去做*/
+  align-items: center;
+  color: #fff;
+}
+
+.cover .cover-wrap {
+  width: 308px;
+  
+}
+
+.cover ul {
+  display: flex;
+
+}
+
+.cover ul li {
+  margin-right: 16px;
+}
+
+.cover ul li:last-child { /*針最後一個標籤做css設定*/
+  margin-right: 0; 
+}
+
+.cover p.here { /*對標籤的同一層class不用空格*/
+  font-size: 24px;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.cover h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-style: oblique;
+  margin-bottom: 32px;
+}
+
+.cover p.content {
+  font-size: 24px;
+  font-style: oblique;
+  margin-bottom: 48px;
+  line-height: 42px;
+}
+
+/*about*/
+.container-about h2{
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  margin-top: 64px;
+}
+
+.container-about img {
+  display: block;
+  margin: 40px auto 24px auto;
+}
+
+.about-block {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 42px;
+
+
+
+}
+
+
+.about-list {
+  border-top: 1px solid #000;
+  width: 384px;
+  margin: 12px auto 0;
+  padding: 32px 0 56px;
+}
+
+
+
+.jobItem{
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.jobItem:last-child {
+  margin-bottom: 0; /*不用往下推*/
+}
+
+.jobItem::before{
+  content:'';
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius:50%;
+  margin-left: -38px;
+  margin-top: 10px;
+}
+
+
+/*My brand*/
+
+.container-myBrand {
+  background-color: #000;
+  color: #fff;
+  padding: 64px 0 160px;
+  text-align: center;
+}
+
+.container-myBrand ul {
+  width: 1200px;
+  margin: 40px auto 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.container-myBrand h2 {
+  font-size: 64px;
+  font-weight: bold;
+  font-style: oblique;
+  margin-bottom: 16px;
+}
+
+.container-myBrand p {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 42px;
+  margin-bottom: 48px;
+}
+
+.container-myBrand p.slogan {
+  margin-bottom: 32px;
+  line-height: 28px;
+}
+
+
+
+/*other works*/
+
+.container-other {
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+}
+
+.container-other h2 {
+  font-size: 64px;
+  font-weight: bold;
+  font-style: oblique;
+  margin: 64px 0 24px;
+}
+
+.container-other .works {
+  font-size: 20px;
+  line-height: 42px;
+  font-weight: bold;
+
+}
+
+
+.other-bg {
+  background-image: url("../images/photo-1561291386-5be50364cfb5.png");
+  background-size: 1920px; /*如果圖片設100%，他會依版面大小作伸縮*/
+  background-repeat: no-repeat;
+  background-position: center 75px; /*圖片左上置中,在不同裝置顯示器都不會影響*/
+  min-height: 1558px;
+  padding-bottom: 74px;
+}
+
+.other-bg ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+
+.other-bg ul:first-child {
+  margin-top: 48px;
+}
+
+.other-bg ul li p {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 18px;
+}
+
+
+/* footer cantact */
+.contact {
+  background: #000;
+  color: #fff;
+  height: 317px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 64px;
+  line-height: 75px;
+  font-style: oblique;
+  padding-top: 64px;
+  margin-bottom: 16px;
+
+
+}
+
+.contact p {
+  font-size: 24px;
+  line-height: 33px;
+  font-style: oblique;
+ 
+
+}
